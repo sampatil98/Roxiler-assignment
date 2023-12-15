@@ -29,7 +29,7 @@ This document provides an overview of the routes available in the project and th
 - **Description**: This link directs to the deployed frontend of the transaction dashboard.
 
 ### Backend:
-- **URL**: `[https://your-backend-deployment-url.com](https://lazy-red-ladybug-hem.cyclic.app/)`
+- **URL**: https://lazy-red-ladybug-hem.cyclic.app/
 - **Description**: This is the URL for the deployed backend of the transaction dashboard, hosting the API routes.
 
 ---
