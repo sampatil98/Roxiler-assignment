@@ -133,4 +133,4 @@ The HTML file (`index.html`) consists of various sections representing different
 - The HTML file (`index.html`) contains the structure of the transaction dashboard with sections for data display, input fields, statistics, and charts.
 - CSS (`index.css`) provides styling to the HTML elements to enhance the visual appearance.
 - JavaScript (`index.js`) adds functionality to the dashboard, including fetching data from the backend, updating UI elements, and rendering charts using Chart.js.
-- Ensure that the JavaScript file (`index.js`) includes functions to handle data retrieval, pagination, and chart rendering based on backend responses.
+- JavaScript file (`index.js`) includes functions to handle data retrieval, pagination, and chart rendering based on backend responses.
