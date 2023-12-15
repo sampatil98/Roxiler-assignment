@@ -3,7 +3,7 @@
 ## Deployed Links
 
 ### Frontend:
-- **URL**: [Frontend Deployment Link][(https://your-frontend-deployment-url.com](https://roxiler-assignment.netlify.app/))
+- **URL**: [Frontend Deployment Link][(https://roxiler-assignment.netlify.app/)]
 - **Description**: This link directs to the deployed frontend of the transaction dashboard.
 
 ### Backend:
