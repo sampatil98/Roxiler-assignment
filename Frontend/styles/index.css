@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    padding: 5px 20px;
+    background-color: rgb(44, 33, 58);
+    color: aliceblue;
+}
+.main{
+    padding: 2rem;
+}
+.title{
+    width: fit-content;
+    margin: auto;
+}
+
+.main h1{
+    padding: 10px;
+    background-color: rgb(225, 235, 244);
+    width: fit-content;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+.searchbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#search,#months{
+    border: none;
+    background-color: #FFCA28;
+    border-radius: 20px;
+    padding: 10px;
+    width: 20%;
+}
+#months option{
+    background-color: #FFF176;
+}
+thead{
+    background-color: #546E7A;
+}
+tbody{
+    background-color: #CFD8DC;
+}
+.table{
+    width: 100%;
+    border: 1px solid black;
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black; 
+}
+.image{
+    width: 20%;
+}
+.below_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+#next:hover,#previous:hover{
+    font-size: 16px;
+    color: blue;
+    cursor: pointer;
+}
+.stat-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.statisticks{
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.bgyello{
+    background-color: #FFF176;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+.statisticks h2{
+    color: blue;
+}
+#chartContainer {
+    width: fit-content;
+    height: 400px;
+    margin: 50px auto;
+    padding: 50px 20px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+#barChartContainer {
+    width: 50%;
+    height: 400px;
+    margin: 50px auto;
+    padding: 50px 20px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+

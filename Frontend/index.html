@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbord</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+
+    <section class="main">
+
+        <div class="title">
+            <h1>Transaction Dashboard</h1>
+        </div>
+
+        <div class="searchbar">
+
+            <input id="search" type="text" placeholder="Search Transaction">
+
+            <select name="month" id="months">
+                <option value="">Select Month</option>
+                <option value="01">January</option>
+                <option value="02">February</option>
+                <option value="03">March</option>
+                <option value="04">April</option>
+                <option value="05">May</option>
+                <option value="06">June</option>
+                <option value="07">July</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+            
+
+        </div>
+
+        <div class="tablesection">
+
+            <table class="table">
+                <thead>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                    <th>Sold</th>
+                    <th>image</th>
+                </thead>
+                <tbody id="table_body">
+                    <!-- append all data here -->
+                </tbody>
+            </table>
+
+            <div class="below_nav">
+                <div class="flexbox">
+                    <h4>Page No : </h4>
+                    <h4 id="page_no">1</h4>
+                </div>
+                <div class="flexbox">
+                    <h4 id="next">Next</h4>
+                    <h4>-</h4>
+                    <h4 id="previous">Previous</h4>
+                </div>
+                <div>
+                    <h4>Per Page : 10</h4>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="stat-div">
+            <div class="sub-section">
+                <div class="statisticks">
+                    <h2> Statistics - <span id="stat-month">(select month first)</span></h2>
+                    <div class="flexbox bgyello">
+                        <div>
+                            <h3>Total sale</h3>
+                            <h3>Total sold item</h3>
+                            <h3>Total not sold item</h3>
+                        </div>
+                        <div>
+                            <h3 id="sale"></h3>
+                            <h3 id="sold-itm"></h3>
+                            <h3 id="unsold-item"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="chartContainer">
+                    <h2 style="color: blue;">Pie chart for categories</h2>
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+            <div id="barChartContainer">
+                <h2> Bar Chart Stats  - <span id="stat1-month">(select month first)</span></h2>
+                <canvas id="myBarChart"></canvas>
+            </div>
+
+        </div>
+
+
+
+    </section>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="./script/index.js"></script>
+</html>
