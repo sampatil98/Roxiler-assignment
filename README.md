@@ -25,7 +25,7 @@ This document provides an overview of the routes available in the project and th
 ## Deployed Links
 
 ### Frontend:
-- **URL**: [Frontend Deployment Link](https://your-frontend-deployment-url.com)
+- **URL**: [Frontend Deployment Link][(https://your-frontend-deployment-url.com](https://roxiler-assignment.netlify.app/))
 - **Description**: This link directs to the deployed frontend of the transaction dashboard.
 
 ### Backend:
