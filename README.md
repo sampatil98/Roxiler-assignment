@@ -1,5 +1,17 @@
 # Project Routes Documentation
 
+## Deployed Links
+
+### Frontend:
+- **URL**: [Frontend Deployment Link][(https://your-frontend-deployment-url.com](https://roxiler-assignment.netlify.app/))
+- **Description**: This link directs to the deployed frontend of the transaction dashboard.
+
+### Backend:
+- **URL**: https://lazy-red-ladybug-hem.cyclic.app/
+- **Description**: This is the URL for the deployed backend of the transaction dashboard, hosting the API routes.
+
+---
+
 ## Overview
 
 This document provides an overview of the routes available in the project and their functionalities.
@@ -22,17 +34,7 @@ This document provides an overview of the routes available in the project and th
 
 ---
 
-## Deployed Links
 
-### Frontend:
-- **URL**: [Frontend Deployment Link][(https://your-frontend-deployment-url.com](https://roxiler-assignment.netlify.app/))
-- **Description**: This link directs to the deployed frontend of the transaction dashboard.
-
-### Backend:
-- **URL**: https://lazy-red-ladybug-hem.cyclic.app/
-- **Description**: This is the URL for the deployed backend of the transaction dashboard, hosting the API routes.
-
----
 
 ## Route: /transcation
 
