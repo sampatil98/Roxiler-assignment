@@ -22,7 +22,19 @@ This document provides an overview of the routes available in the project and th
 
 ---
 
-## Route: /
+## Deployed Links
+
+### Frontend:
+- **URL**: [Frontend Deployment Link](https://your-frontend-deployment-url.com)
+- **Description**: This link directs to the deployed frontend of the transaction dashboard.
+
+### Backend:
+- **URL**: `[https://your-backend-deployment-url.com](https://lazy-red-ladybug-hem.cyclic.app/)`
+- **Description**: This is the URL for the deployed backend of the transaction dashboard, hosting the API routes.
+
+---
+
+## Route: /transcation
 
 ### Method: GET
 #### Description:
@@ -35,7 +47,7 @@ Retrieves data based on provided query parameters for pagination and filtering b
 
 ---
 
-## Route: /statistics
+## Route: /transcation/statistics
 
 ### Method: GET
 #### Description:
@@ -46,7 +58,7 @@ Fetches statistics based on the selected month.
 
 ---
 
-## Route: /bar_chart
+## Route: /transcation/bar_chart
 
 ### Method: GET
 #### Description:
@@ -57,7 +69,7 @@ Generates data for a bar chart based on price ranges within the selected month.
 
 ---
 
-## Route: /pie_chart
+## Route: /transcation/pie_chart
 
 ### Method: GET
 #### Description:
